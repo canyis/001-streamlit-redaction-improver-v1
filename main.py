@@ -98,7 +98,7 @@ with col1:
 with col2:
     option_dialect = st.selectbox(
         'Which English Dialect would you like?',
-        ('American', 'British'))
+        ('American', 'British','Spanish', 'French', 'German', 'Italian', 'Portuguese'))
     
     
 # Output
