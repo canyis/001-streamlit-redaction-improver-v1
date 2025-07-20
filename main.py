@@ -93,7 +93,7 @@ col1, col2 = st.columns(2)
 with col1:
     option_tone = st.selectbox(
         'Which tone would you like your redaction to have?',
-        ('Formal', 'Informal'))
+        ('Formal', 'Informal', 'Friendly', 'Professional', 'Persuasive', 'Optimistic', 'Humorous'))
     
 with col2:
     option_dialect = st.selectbox(
